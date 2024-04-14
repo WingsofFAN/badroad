@@ -1,1 +1,2 @@
 # badroad
+pip install ultralytics

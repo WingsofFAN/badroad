@@ -1,0 +1,18 @@
+path: /home/fan/yolov8/road # dataset root dir
+train: ["/home/fan/yolov8/meta/b_train.txt",
+        "/home/fan/yolov8/meta/c_train.txt",
+        "/home/fan/yolov8/meta/g_train.txt",
+        "/home/fan/yolov8/meta/m_train.txt",
+        "/home/fan/yolov8/meta/t_train.txt",
+        "/home/fan/yolov8/meta/m_train.txt",
+        "/home/fan/yolov8/meta/t_train.txt"] 
+val:  ["/home/fan/yolov8/meta/b_test.txt",
+        "/home/fan/yolov8/meta/c_test.txt",
+        "/home/fan/yolov8/meta/g_test.txt",
+        "/home/fan/yolov8/meta/m_test.txt",
+        "/home/fan/yolov8/meta/t_test.txt"]
+test:  # test images (optional)
+
+# Classes
+names:
+  0: badroad
